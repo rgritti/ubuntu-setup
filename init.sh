@@ -15,4 +15,4 @@ echo -e "\n    read only = no"
 echo -e "\n    browsable = yes\n"
 sudo service smbd restart
 sudo ufw allow samba
-
+sudo update-rc.d samba defaults
