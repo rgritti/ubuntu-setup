@@ -12,3 +12,4 @@ Add the following line to fstab:
 Make sure the the uuid is correct by finding your drive under `sudo blkid`
 Make sure your gid and uid are correct by looking for your user under `cat /etc/passwd`
 
+In `mnt/pen` create a directory `media` for Plex to use as source
