@@ -1,6 +1,8 @@
 # ubuntu-setup
 scripts to initialize ubuntu with Plex and Home Assistant
 
+sudo apt-get install exfat-utils exfat-fuse
+
 ## Step 1
 Add the nas driver to `/etc/fstab`
 
