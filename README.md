@@ -47,7 +47,7 @@ docker run -d \
     -v $CONFIG:/config \
     -v $MOVIES:/movies \
     -v $SERIES:/series \
-    plexinc/pms-docker:latest
+    docker.io/plexinc/pms-docker:latest
 ```
 
   Replace these paths:
