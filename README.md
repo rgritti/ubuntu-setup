@@ -7,7 +7,7 @@ Add the nas driver to `/etc/fstab`
 Add the following line to fstab:
 
 ```
-/dev/disk/by-uuid/675B-2137       /mnt/pen      exfat   auto
+/dev/sda1       /mnt/pen        exfat    defaults,uid=1000,gid=984,umask=0002    0       0
 ```
 Make sure the the uuid is correct by finding your drive under `sudo blkid`
 
