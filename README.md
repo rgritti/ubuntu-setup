@@ -2,7 +2,7 @@
 scripts to initialize ubuntu with Plex and Home Assistant
 
 ## Step 1
-Install samba
+Install samba, podman docker
 
 ## Step 2
 Add the nas driver to `/etc/fstab`
