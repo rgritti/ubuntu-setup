@@ -24,8 +24,15 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
+# Check if share name is provided
+if [ -z "$2" ]; then
+    echo -e "${RED}Error: No share name provided${NC}"
+    echo "Usage: $0 /path/to/director sharename"
+    exit 1
+fi
+
 SHARE_DIR="$1"
-SHARE_NAME=$(basename "$SHARE_DIR")
+SHARE_NAME="$2"
 
 # Check if directory exists, if not create it
 if [ ! -d "$SHARE_DIR" ]; then
