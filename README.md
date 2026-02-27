@@ -12,3 +12,11 @@ Add the following line to fstab:
 Make sure the the uuid is correct by finding your drive under `sudo blkid`
 
 In `mnt/pen` create a directory `media` for Plex to use as source
+
+## Step 2
+Add the samba share
+
+run
+```
+
+```
