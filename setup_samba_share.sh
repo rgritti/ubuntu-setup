@@ -104,7 +104,7 @@ cat >> /etc/samba/smb.conf << EOF
    read only = no
    create mask = 0777
    directory mask = 0777
-   force user = nobody
+   force user = rob
    force create mode = 0777
    force directory mode = 0777
    public = yes
